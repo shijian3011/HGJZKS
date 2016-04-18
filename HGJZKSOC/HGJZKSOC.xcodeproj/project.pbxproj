@@ -52,6 +52,20 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		7F5944DB1CC4E6D600F9AFE5 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		7F5944DC1CC4E6D600F9AFE5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		7FCE82591CC489F300098B9A /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +170,8 @@
 				7FCE82611CC489F300098B9A /* Supporing Files */,
 				7FCE82661CC489F300098B9A /* ViewController */,
 				7FCE82651CC489F300098B9A /* View */,
+				7F5944DB1CC4E6D600F9AFE5 /* Database */,
+				7F5944DC1CC4E6D600F9AFE5 /* Network */,
 				7FCE825C1CC489F300098B9A /* Category */,
 				7FCE825D1CC489F300098B9A /* Helper */,
 				7FCE825E1CC489F300098B9A /* Manager */,
