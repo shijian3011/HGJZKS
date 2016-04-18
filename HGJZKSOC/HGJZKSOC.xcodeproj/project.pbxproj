@@ -7,52 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9598E0BC1CC3BA6000A02507 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9598E0BB1CC3BA6000A02507 /* main.m */; };
-		9598E0BF1CC3BA6000A02507 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9598E0BE1CC3BA6000A02507 /* AppDelegate.m */; };
-		9598E0C21CC3BA6000A02507 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9598E0C11CC3BA6000A02507 /* ViewController.m */; };
-		9598E0C51CC3BA6000A02507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9598E0C31CC3BA6000A02507 /* Main.storyboard */; };
-		9598E0C71CC3BA6000A02507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9598E0C61CC3BA6000A02507 /* Assets.xcassets */; };
-		9598E0CA1CC3BA6000A02507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9598E0C81CC3BA6000A02507 /* LaunchScreen.storyboard */; };
-		9598E0D51CC3BA6000A02507 /* HGJZKSOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9598E0D41CC3BA6000A02507 /* HGJZKSOCTests.m */; };
-		9598E0E01CC3BA6000A02507 /* HGJZKSOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9598E0DF1CC3BA6000A02507 /* HGJZKSOCUITests.m */; };
+		7FCE82691CC489F300098B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCE825B1CC489F300098B9A /* AppDelegate.m */; };
+		7FCE826A1CC489F300098B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FCE82601CC489F300098B9A /* Assets.xcassets */; };
+		7FCE826C1CC489F300098B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCE82631CC489F300098B9A /* main.m */; };
+		7FCE826D1CC489F300098B9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCE82681CC489F300098B9A /* ViewController.m */; };
+		7FCE826F1CC48B3C00098B9A /* HGJZKSOCInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FCE826E1CC48B3C00098B9A /* HGJZKSOCInfo.plist */; };
+		7FCE82711CC48C3800098B9A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FCE82701CC48C3800098B9A /* Default-568h@2x.png */; };
 		BBDD34388C832240FAF8A28B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 616AA4F7DDFE70FDEEC19234 /* libPods.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		9598E0D11CC3BA6000A02507 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9598E0AF1CC3BA6000A02507 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9598E0B61CC3BA6000A02507;
-			remoteInfo = HGJZKSOC;
-		};
-		9598E0DC1CC3BA6000A02507 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9598E0AF1CC3BA6000A02507 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9598E0B61CC3BA6000A02507;
-			remoteInfo = HGJZKSOC;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		616AA4F7DDFE70FDEEC19234 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FCE825A1CC489F300098B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FCE825B1CC489F300098B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FCE82601CC489F300098B9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FCE82631CC489F300098B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FCE82671CC489F300098B9A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7FCE82681CC489F300098B9A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7FCE826E1CC48B3C00098B9A /* HGJZKSOCInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HGJZKSOCInfo.plist; sourceTree = "<group>"; };
+		7FCE82701CC48C3800098B9A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		9598E0B71CC3BA6000A02507 /* HGJZKSOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGJZKSOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9598E0BB1CC3BA6000A02507 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9598E0BD1CC3BA6000A02507 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9598E0BE1CC3BA6000A02507 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9598E0C01CC3BA6000A02507 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9598E0C11CC3BA6000A02507 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9598E0C41CC3BA6000A02507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9598E0C61CC3BA6000A02507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9598E0C91CC3BA6000A02507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9598E0CB1CC3BA6000A02507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9598E0D01CC3BA6000A02507 /* HGJZKSOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HGJZKSOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9598E0D41CC3BA6000A02507 /* HGJZKSOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGJZKSOCTests.m; sourceTree = "<group>"; };
-		9598E0D61CC3BA6000A02507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9598E0DB1CC3BA6000A02507 /* HGJZKSOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HGJZKSOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9598E0DF1CC3BA6000A02507 /* HGJZKSOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGJZKSOCUITests.m; sourceTree = "<group>"; };
-		9598E0E11CC3BA6000A02507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3AD4848726F6CBD797BC3AA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FFC50DDA0B9D66AA2A3E4BC2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,20 +37,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBDD34388C832240FAF8A28B /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9598E0CD1CC3BA6000A02507 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9598E0D81CC3BA6000A02507 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +52,76 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		7FCE82591CC489F300098B9A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7FCE825A1CC489F300098B9A /* AppDelegate.h */,
+				7FCE825B1CC489F300098B9A /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		7FCE825C1CC489F300098B9A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7FCE825D1CC489F300098B9A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		7FCE825E1CC489F300098B9A /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		7FCE825F1CC489F300098B9A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7FCE82601CC489F300098B9A /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		7FCE82611CC489F300098B9A /* Supporing Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FCE826E1CC48B3C00098B9A /* HGJZKSOCInfo.plist */,
+				7FCE82631CC489F300098B9A /* main.m */,
+			);
+			path = "Supporing Files";
+			sourceTree = "<group>";
+		};
+		7FCE82641CC489F300098B9A /* ThirdLibrary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdLibrary;
+			sourceTree = "<group>";
+		};
+		7FCE82651CC489F300098B9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7FCE82661CC489F300098B9A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7FCE82671CC489F300098B9A /* ViewController.h */,
+				7FCE82681CC489F300098B9A /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		8C72B68ED63E1684E3C69B8F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,9 +133,8 @@
 		9598E0AE1CC3BA6000A02507 = {
 			isa = PBXGroup;
 			children = (
+				7FCE82701CC48C3800098B9A /* Default-568h@2x.png */,
 				9598E0B91CC3BA6000A02507 /* HGJZKSOC */,
-				9598E0D31CC3BA6000A02507 /* HGJZKSOCTests */,
-				9598E0DE1CC3BA6000A02507 /* HGJZKSOCUITests */,
 				9598E0B81CC3BA6000A02507 /* Products */,
 				481BDD343258A00DA5F2CB91 /* Pods */,
 				8C72B68ED63E1684E3C69B8F /* Frameworks */,
@@ -116,8 +145,6 @@
 			isa = PBXGroup;
 			children = (
 				9598E0B71CC3BA6000A02507 /* HGJZKSOC.app */,
-				9598E0D01CC3BA6000A02507 /* HGJZKSOCTests.xctest */,
-				9598E0DB1CC3BA6000A02507 /* HGJZKSOCUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,43 +152,17 @@
 		9598E0B91CC3BA6000A02507 /* HGJZKSOC */ = {
 			isa = PBXGroup;
 			children = (
-				9598E0BD1CC3BA6000A02507 /* AppDelegate.h */,
-				9598E0BE1CC3BA6000A02507 /* AppDelegate.m */,
-				9598E0C01CC3BA6000A02507 /* ViewController.h */,
-				9598E0C11CC3BA6000A02507 /* ViewController.m */,
-				9598E0C31CC3BA6000A02507 /* Main.storyboard */,
-				9598E0C61CC3BA6000A02507 /* Assets.xcassets */,
-				9598E0C81CC3BA6000A02507 /* LaunchScreen.storyboard */,
-				9598E0CB1CC3BA6000A02507 /* Info.plist */,
-				9598E0BA1CC3BA6000A02507 /* Supporting Files */,
+				7FCE82591CC489F300098B9A /* AppDelegate */,
+				7FCE82611CC489F300098B9A /* Supporing Files */,
+				7FCE82661CC489F300098B9A /* ViewController */,
+				7FCE82651CC489F300098B9A /* View */,
+				7FCE825C1CC489F300098B9A /* Category */,
+				7FCE825D1CC489F300098B9A /* Helper */,
+				7FCE825E1CC489F300098B9A /* Manager */,
+				7FCE825F1CC489F300098B9A /* Resource */,
+				7FCE82641CC489F300098B9A /* ThirdLibrary */,
 			);
 			path = HGJZKSOC;
-			sourceTree = "<group>";
-		};
-		9598E0BA1CC3BA6000A02507 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9598E0BB1CC3BA6000A02507 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9598E0D31CC3BA6000A02507 /* HGJZKSOCTests */ = {
-			isa = PBXGroup;
-			children = (
-				9598E0D41CC3BA6000A02507 /* HGJZKSOCTests.m */,
-				9598E0D61CC3BA6000A02507 /* Info.plist */,
-			);
-			path = HGJZKSOCTests;
-			sourceTree = "<group>";
-		};
-		9598E0DE1CC3BA6000A02507 /* HGJZKSOCUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9598E0DF1CC3BA6000A02507 /* HGJZKSOCUITests.m */,
-				9598E0E11CC3BA6000A02507 /* Info.plist */,
-			);
-			path = HGJZKSOCUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,42 +188,6 @@
 			productReference = 9598E0B71CC3BA6000A02507 /* HGJZKSOC.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9598E0CF1CC3BA6000A02507 /* HGJZKSOCTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9598E0E71CC3BA6000A02507 /* Build configuration list for PBXNativeTarget "HGJZKSOCTests" */;
-			buildPhases = (
-				9598E0CC1CC3BA6000A02507 /* Sources */,
-				9598E0CD1CC3BA6000A02507 /* Frameworks */,
-				9598E0CE1CC3BA6000A02507 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9598E0D21CC3BA6000A02507 /* PBXTargetDependency */,
-			);
-			name = HGJZKSOCTests;
-			productName = HGJZKSOCTests;
-			productReference = 9598E0D01CC3BA6000A02507 /* HGJZKSOCTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9598E0DA1CC3BA6000A02507 /* HGJZKSOCUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9598E0EA1CC3BA6000A02507 /* Build configuration list for PBXNativeTarget "HGJZKSOCUITests" */;
-			buildPhases = (
-				9598E0D71CC3BA6000A02507 /* Sources */,
-				9598E0D81CC3BA6000A02507 /* Frameworks */,
-				9598E0D91CC3BA6000A02507 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9598E0DD1CC3BA6000A02507 /* PBXTargetDependency */,
-			);
-			name = HGJZKSOCUITests;
-			productName = HGJZKSOCUITests;
-			productReference = 9598E0DB1CC3BA6000A02507 /* HGJZKSOCUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -234,14 +199,6 @@
 				TargetAttributes = {
 					9598E0B61CC3BA6000A02507 = {
 						CreatedOnToolsVersion = 7.3;
-					};
-					9598E0CF1CC3BA6000A02507 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 9598E0B61CC3BA6000A02507;
-					};
-					9598E0DA1CC3BA6000A02507 = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 9598E0B61CC3BA6000A02507;
 					};
 				};
 			};
@@ -259,8 +216,6 @@
 			projectRoot = "";
 			targets = (
 				9598E0B61CC3BA6000A02507 /* HGJZKSOC */,
-				9598E0CF1CC3BA6000A02507 /* HGJZKSOCTests */,
-				9598E0DA1CC3BA6000A02507 /* HGJZKSOCUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -270,23 +225,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9598E0CA1CC3BA6000A02507 /* LaunchScreen.storyboard in Resources */,
-				9598E0C71CC3BA6000A02507 /* Assets.xcassets in Resources */,
-				9598E0C51CC3BA6000A02507 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9598E0CE1CC3BA6000A02507 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9598E0D91CC3BA6000A02507 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				7FCE826A1CC489F300098B9A /* Assets.xcassets in Resources */,
+				7FCE826F1CC48B3C00098B9A /* HGJZKSOCInfo.plist in Resources */,
+				7FCE82711CC48C3800098B9A /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,61 +286,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9598E0C21CC3BA6000A02507 /* ViewController.m in Sources */,
-				9598E0BF1CC3BA6000A02507 /* AppDelegate.m in Sources */,
-				9598E0BC1CC3BA6000A02507 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9598E0CC1CC3BA6000A02507 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9598E0D51CC3BA6000A02507 /* HGJZKSOCTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9598E0D71CC3BA6000A02507 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9598E0E01CC3BA6000A02507 /* HGJZKSOCUITests.m in Sources */,
+				7FCE826D1CC489F300098B9A /* ViewController.m in Sources */,
+				7FCE826C1CC489F300098B9A /* main.m in Sources */,
+				7FCE82691CC489F300098B9A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9598E0D21CC3BA6000A02507 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9598E0B61CC3BA6000A02507 /* HGJZKSOC */;
-			targetProxy = 9598E0D11CC3BA6000A02507 /* PBXContainerItemProxy */;
-		};
-		9598E0DD1CC3BA6000A02507 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9598E0B61CC3BA6000A02507 /* HGJZKSOC */;
-			targetProxy = 9598E0DC1CC3BA6000A02507 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		9598E0C31CC3BA6000A02507 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9598E0C41CC3BA6000A02507 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9598E0C81CC3BA6000A02507 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9598E0C91CC3BA6000A02507 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9598E0E21CC3BA6000A02507 /* Debug */ = {
@@ -489,7 +382,7 @@
 			baseConfigurationReference = FFC50DDA0B9D66AA2A3E4BC2 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = HGJZKSOC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HGJZKSOC/Supporing Files/HGJZKSOCInfo.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stoneBellHill.HGJZKSOC;
@@ -502,57 +395,11 @@
 			baseConfigurationReference = C3AD4848726F6CBD797BC3AA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = HGJZKSOC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HGJZKSOC/Supporing Files/HGJZKSOCInfo.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stoneBellHill.HGJZKSOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		9598E0E81CC3BA6000A02507 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = HGJZKSOCTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stoneBellHill.HGJZKSOCTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HGJZKSOC.app/HGJZKSOC";
-			};
-			name = Debug;
-		};
-		9598E0E91CC3BA6000A02507 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = HGJZKSOCTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stoneBellHill.HGJZKSOCTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HGJZKSOC.app/HGJZKSOC";
-			};
-			name = Release;
-		};
-		9598E0EB1CC3BA6000A02507 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = HGJZKSOCUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stoneBellHill.HGJZKSOCUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = HGJZKSOC;
-			};
-			name = Debug;
-		};
-		9598E0EC1CC3BA6000A02507 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = HGJZKSOCUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stoneBellHill.HGJZKSOCUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = HGJZKSOC;
 			};
 			name = Release;
 		};
@@ -573,24 +420,6 @@
 			buildConfigurations = (
 				9598E0E51CC3BA6000A02507 /* Debug */,
 				9598E0E61CC3BA6000A02507 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9598E0E71CC3BA6000A02507 /* Build configuration list for PBXNativeTarget "HGJZKSOCTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9598E0E81CC3BA6000A02507 /* Debug */,
-				9598E0E91CC3BA6000A02507 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9598E0EA1CC3BA6000A02507 /* Build configuration list for PBXNativeTarget "HGJZKSOCUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9598E0EB1CC3BA6000A02507 /* Debug */,
-				9598E0EC1CC3BA6000A02507 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
