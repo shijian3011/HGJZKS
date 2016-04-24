@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  JZBaseViewController.h
 //  HGJZKSOC
 //
-//  Created by SHIJIAN on 16/4/17.
+//  Created by SHIJIAN on 16/4/24.
 //  Copyright © 2016年 Stone Bell Hill. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface JZBaseViewController : UIViewController
 
 @end
-

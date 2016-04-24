@@ -10,9 +10,15 @@
 		7FCE82691CC489F300098B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCE825B1CC489F300098B9A /* AppDelegate.m */; };
 		7FCE826A1CC489F300098B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FCE82601CC489F300098B9A /* Assets.xcassets */; };
 		7FCE826C1CC489F300098B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCE82631CC489F300098B9A /* main.m */; };
-		7FCE826D1CC489F300098B9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCE82681CC489F300098B9A /* ViewController.m */; };
-		7FCE826F1CC48B3C00098B9A /* HGJZKSOCInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FCE826E1CC48B3C00098B9A /* HGJZKSOCInfo.plist */; };
-		7FCE82711CC48C3800098B9A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FCE82701CC48C3800098B9A /* Default-568h@2x.png */; };
+		95F6140C1CCCB5BB0048EE88 /* JZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F6140A1CCCB5BB0048EE88 /* JZTabBarController.m */; };
+		95F614111CCCB6760048EE88 /* JZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F614101CCCB6760048EE88 /* JZNavigationController.m */; };
+		95F614181CCCB94F0048EE88 /* JZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F614171CCCB94F0048EE88 /* JZBaseViewController.m */; };
+		95F6141C1CCCB9740048EE88 /* JZNoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F6141A1CCCB9740048EE88 /* JZNoticeViewController.m */; };
+		95F6141D1CCCB9740048EE88 /* JZNoticeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95F6141B1CCCB9740048EE88 /* JZNoticeViewController.xib */; };
+		95F614211CCCB9980048EE88 /* JZPracticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F6141F1CCCB9980048EE88 /* JZPracticeViewController.m */; };
+		95F614221CCCB9980048EE88 /* JZPracticeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95F614201CCCB9980048EE88 /* JZPracticeViewController.xib */; };
+		95F614261CCCB9B50048EE88 /* JZMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F614241CCCB9B50048EE88 /* JZMineViewController.m */; };
+		95F614271CCCB9B50048EE88 /* JZMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95F614251CCCB9B50048EE88 /* JZMineViewController.xib */; };
 		BBDD34388C832240FAF8A28B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 616AA4F7DDFE70FDEEC19234 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -22,11 +28,27 @@
 		7FCE825B1CC489F300098B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7FCE82601CC489F300098B9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FCE82631CC489F300098B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7FCE82671CC489F300098B9A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7FCE82681CC489F300098B9A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7FCE826E1CC48B3C00098B9A /* HGJZKSOCInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HGJZKSOCInfo.plist; sourceTree = "<group>"; };
-		7FCE82701CC48C3800098B9A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		9598E0B71CC3BA6000A02507 /* HGJZKSOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGJZKSOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F614091CCCB5BB0048EE88 /* JZTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZTabBarController.h; sourceTree = "<group>"; };
+		95F6140A1CCCB5BB0048EE88 /* JZTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZTabBarController.m; sourceTree = "<group>"; };
+		95F6140F1CCCB6760048EE88 /* JZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZNavigationController.h; sourceTree = "<group>"; };
+		95F614101CCCB6760048EE88 /* JZNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZNavigationController.m; sourceTree = "<group>"; };
+		95F614161CCCB94F0048EE88 /* JZBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZBaseViewController.h; sourceTree = "<group>"; };
+		95F614171CCCB94F0048EE88 /* JZBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZBaseViewController.m; sourceTree = "<group>"; };
+		95F614191CCCB9740048EE88 /* JZNoticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZNoticeViewController.h; sourceTree = "<group>"; };
+		95F6141A1CCCB9740048EE88 /* JZNoticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZNoticeViewController.m; sourceTree = "<group>"; };
+		95F6141B1CCCB9740048EE88 /* JZNoticeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZNoticeViewController.xib; sourceTree = "<group>"; };
+		95F6141E1CCCB9980048EE88 /* JZPracticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZPracticeViewController.h; sourceTree = "<group>"; };
+		95F6141F1CCCB9980048EE88 /* JZPracticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZPracticeViewController.m; sourceTree = "<group>"; };
+		95F614201CCCB9980048EE88 /* JZPracticeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZPracticeViewController.xib; sourceTree = "<group>"; };
+		95F614231CCCB9B50048EE88 /* JZMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZMineViewController.h; sourceTree = "<group>"; };
+		95F614241CCCB9B50048EE88 /* JZMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZMineViewController.m; sourceTree = "<group>"; };
+		95F614251CCCB9B50048EE88 /* JZMineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZMineViewController.xib; sourceTree = "<group>"; };
+		95F614291CCCBF190048EE88 /* JZColorDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZColorDefine.h; sourceTree = "<group>"; };
+		95F6142A1CCCBF2C0048EE88 /* JZFrameDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZFrameDefine.h; sourceTree = "<group>"; };
+		95F6142B1CCCBF730048EE88 /* JZFontDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZFontDefine.h; sourceTree = "<group>"; };
+		95F6142C1CCCC0470048EE88 /* JZPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZPrefixHeader.pch; sourceTree = "<group>"; };
 		C3AD4848726F6CBD797BC3AA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FFC50DDA0B9D66AA2A3E4BC2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,6 +131,7 @@
 			children = (
 				7FCE826E1CC48B3C00098B9A /* HGJZKSOCInfo.plist */,
 				7FCE82631CC489F300098B9A /* main.m */,
+				95F6142C1CCCC0470048EE88 /* JZPrefixHeader.pch */,
 			);
 			path = "Supporing Files";
 			sourceTree = "<group>";
@@ -130,8 +153,12 @@
 		7FCE82661CC489F300098B9A /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				7FCE82671CC489F300098B9A /* ViewController.h */,
-				7FCE82681CC489F300098B9A /* ViewController.m */,
+				95F614151CCCB9260048EE88 /* BaseViewController */,
+				95F614121CCCB9000048EE88 /* DrivingTestNotice */,
+				95F614131CCCB9000048EE88 /* DrivingTestPractice */,
+				95F614141CCCB9000048EE88 /* Mine */,
+				95F6140E1CCCB6620048EE88 /* NavigationController */,
+				95F614051CCCB54B0048EE88 /* TabBarController */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -147,7 +174,6 @@
 		9598E0AE1CC3BA6000A02507 = {
 			isa = PBXGroup;
 			children = (
-				7FCE82701CC48C3800098B9A /* Default-568h@2x.png */,
 				9598E0B91CC3BA6000A02507 /* HGJZKSOC */,
 				9598E0B81CC3BA6000A02507 /* Products */,
 				481BDD343258A00DA5F2CB91 /* Pods */,
@@ -166,6 +192,7 @@
 		9598E0B91CC3BA6000A02507 /* HGJZKSOC */ = {
 			isa = PBXGroup;
 			children = (
+				95F614281CCCBF010048EE88 /* MarcoDefines */,
 				7FCE82591CC489F300098B9A /* AppDelegate */,
 				7FCE82611CC489F300098B9A /* Supporing Files */,
 				7FCE82661CC489F300098B9A /* ViewController */,
@@ -179,6 +206,73 @@
 				7FCE82641CC489F300098B9A /* ThirdLibrary */,
 			);
 			path = HGJZKSOC;
+			sourceTree = "<group>";
+		};
+		95F614051CCCB54B0048EE88 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				95F614091CCCB5BB0048EE88 /* JZTabBarController.h */,
+				95F6140A1CCCB5BB0048EE88 /* JZTabBarController.m */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		95F6140E1CCCB6620048EE88 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				95F6140F1CCCB6760048EE88 /* JZNavigationController.h */,
+				95F614101CCCB6760048EE88 /* JZNavigationController.m */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		95F614121CCCB9000048EE88 /* DrivingTestNotice */ = {
+			isa = PBXGroup;
+			children = (
+				95F614191CCCB9740048EE88 /* JZNoticeViewController.h */,
+				95F6141A1CCCB9740048EE88 /* JZNoticeViewController.m */,
+				95F6141B1CCCB9740048EE88 /* JZNoticeViewController.xib */,
+			);
+			path = DrivingTestNotice;
+			sourceTree = "<group>";
+		};
+		95F614131CCCB9000048EE88 /* DrivingTestPractice */ = {
+			isa = PBXGroup;
+			children = (
+				95F6141E1CCCB9980048EE88 /* JZPracticeViewController.h */,
+				95F6141F1CCCB9980048EE88 /* JZPracticeViewController.m */,
+				95F614201CCCB9980048EE88 /* JZPracticeViewController.xib */,
+			);
+			path = DrivingTestPractice;
+			sourceTree = "<group>";
+		};
+		95F614141CCCB9000048EE88 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				95F614231CCCB9B50048EE88 /* JZMineViewController.h */,
+				95F614241CCCB9B50048EE88 /* JZMineViewController.m */,
+				95F614251CCCB9B50048EE88 /* JZMineViewController.xib */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		95F614151CCCB9260048EE88 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				95F614161CCCB94F0048EE88 /* JZBaseViewController.h */,
+				95F614171CCCB94F0048EE88 /* JZBaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		95F614281CCCBF010048EE88 /* MarcoDefines */ = {
+			isa = PBXGroup;
+			children = (
+				95F614291CCCBF190048EE88 /* JZColorDefine.h */,
+				95F6142A1CCCBF2C0048EE88 /* JZFrameDefine.h */,
+				95F6142B1CCCBF730048EE88 /* JZFontDefine.h */,
+			);
+			path = MarcoDefines;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,9 +335,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95F614221CCCB9980048EE88 /* JZPracticeViewController.xib in Resources */,
+				95F614271CCCB9B50048EE88 /* JZMineViewController.xib in Resources */,
+				95F6141D1CCCB9740048EE88 /* JZNoticeViewController.xib in Resources */,
 				7FCE826A1CC489F300098B9A /* Assets.xcassets in Resources */,
-				7FCE826F1CC48B3C00098B9A /* HGJZKSOCInfo.plist in Resources */,
-				7FCE82711CC48C3800098B9A /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,9 +397,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FCE826D1CC489F300098B9A /* ViewController.m in Sources */,
+				95F614111CCCB6760048EE88 /* JZNavigationController.m in Sources */,
+				95F614181CCCB94F0048EE88 /* JZBaseViewController.m in Sources */,
+				95F6141C1CCCB9740048EE88 /* JZNoticeViewController.m in Sources */,
+				95F614211CCCB9980048EE88 /* JZPracticeViewController.m in Sources */,
 				7FCE826C1CC489F300098B9A /* main.m in Sources */,
+				95F614261CCCB9B50048EE88 /* JZMineViewController.m in Sources */,
 				7FCE82691CC489F300098B9A /* AppDelegate.m in Sources */,
+				95F6140C1CCCB5BB0048EE88 /* JZTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,11 +498,15 @@
 			baseConfigurationReference = FFC50DDA0B9D66AA2A3E4BC2 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HGJZKSOC/Supporing Files/JZPrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/HGJZKSOC/Supporing Files/HGJZKSOCInfo.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stoneBellHill.HGJZKSOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -411,11 +515,15 @@
 			baseConfigurationReference = C3AD4848726F6CBD797BC3AA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HGJZKSOC/Supporing Files/JZPrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/HGJZKSOC/Supporing Files/HGJZKSOCInfo.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stoneBellHill.HGJZKSOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

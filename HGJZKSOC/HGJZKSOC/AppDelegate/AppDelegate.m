@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "JZNavigationController.h"
+#import "JZTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -15,16 +16,11 @@
 
 @implementation AppDelegate
 
+#pragma mark - AppDelegate
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor = [UIColor redColor];
-    [self.window makeKeyAndVisible];
-    
-    ViewController *vc = [[ViewController alloc] init];
-    vc.view.backgroundColor = [UIColor grayColor];
-    application.keyWindow.rootViewController = vc;
+    [self initRootViewController];
     return YES;
 }
 
@@ -48,6 +44,19 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark - initRootViewController
+
+- (void)initRootViewController {
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor redColor];
+    [self.window makeKeyAndVisible];
+    
+    JZTabBarController *tabBarController = [[JZTabBarController alloc] init];
+    JZNavigationController *navigationController = [[JZNavigationController alloc] initWithRootViewController:tabBarController];
+    self.window.rootViewController = navigationController;
+    tabBarController.selectedIndex = 0;
 }
 
 @end
