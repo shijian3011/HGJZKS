@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.title= @"我的";
+    self.tabBarController.navigationItem.title= @"我的页面";
 }
 
 - (void)didReceiveMemoryWarning {

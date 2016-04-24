@@ -54,8 +54,8 @@
     [self.window makeKeyAndVisible];
     
     JZTabBarController *tabBarController = [[JZTabBarController alloc] init];
-    JZNavigationController *navigationController = [[JZNavigationController alloc] initWithRootViewController:tabBarController];
-    self.window.rootViewController = navigationController;
+//    JZNavigationController *navigationController = [[JZNavigationController alloc] initWithRootViewController:tabBarController];
+    self.window.rootViewController = tabBarController;
     tabBarController.selectedIndex = 0;
 }
 
