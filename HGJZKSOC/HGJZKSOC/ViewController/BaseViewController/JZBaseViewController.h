@@ -10,4 +10,8 @@
 
 @interface JZBaseViewController : UIViewController
 
+- (void)createLeftNavigationBarItem;
+
+- (void)createRightNaviagtionBarItem;
+
 @end
