@@ -14,11 +14,16 @@
 
 @implementation JZPracticeViewController
 
+#pragma mark - life cycle
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.navigationItem.title = @"考试页面";
-    self.view.backgroundColor = [UIColor greenColor];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.tabBarController.navigationItem.title = @"考试页面";
 }
 
 - (void)didReceiveMemoryWarning {
