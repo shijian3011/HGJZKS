@@ -19,7 +19,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self createView];
     [self createLeftNavigationBarItem];
     [self createRightNaviagtionBarItem];
 }
@@ -27,12 +26,6 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-#pragma mark - create view
-
-- (void)createView {
-
 }
 
 #pragma mark - public mehtod
@@ -53,8 +46,7 @@
 #pragma mark - back
 
 - (void)clickBackButton:(UIButton *)sender {
-
-
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 @end

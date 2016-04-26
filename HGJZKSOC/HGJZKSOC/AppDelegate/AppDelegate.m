@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "JZNavigationController.h"
 #import "JZTabBarController.h"
+#import "Database.h"
 
 @interface AppDelegate ()
 
@@ -20,6 +21,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [Database shareDatabase];
     [self initRootViewController];
     return YES;
 }
@@ -50,7 +52,7 @@
 
 - (void)initRootViewController {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor = [UIColor redColor];
+    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
     JZTabBarController *tabBarController = [[JZTabBarController alloc] init];

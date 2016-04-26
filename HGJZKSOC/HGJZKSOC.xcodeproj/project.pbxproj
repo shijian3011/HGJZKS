@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F1DB7B91CCF07EC005B7AA5 /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DB7B81CCF07EC005B7AA5 /* Database.m */; };
+		7F1DB7C31CCF3427005B7AA5 /* JZNoticeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DB7C11CCF3427005B7AA5 /* JZNoticeCell.m */; };
+		7F1DB7C41CCF3427005B7AA5 /* JZNoticeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F1DB7C21CCF3427005B7AA5 /* JZNoticeCell.xib */; };
+		7F1DB7C71CCF3CE4005B7AA5 /* JZHttpsNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DB7C61CCF3CE4005B7AA5 /* JZHttpsNetworkRequest.m */; };
 		7FCE82691CC489F300098B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCE825B1CC489F300098B9A /* AppDelegate.m */; };
 		7FCE826A1CC489F300098B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FCE82601CC489F300098B9A /* Assets.xcassets */; };
 		7FCE826C1CC489F300098B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCE82631CC489F300098B9A /* main.m */; };
@@ -14,7 +18,6 @@
 		95F614111CCCB6760048EE88 /* JZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F614101CCCB6760048EE88 /* JZNavigationController.m */; };
 		95F614181CCCB94F0048EE88 /* JZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F614171CCCB94F0048EE88 /* JZBaseViewController.m */; };
 		95F6141C1CCCB9740048EE88 /* JZNoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F6141A1CCCB9740048EE88 /* JZNoticeViewController.m */; };
-		95F6141D1CCCB9740048EE88 /* JZNoticeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95F6141B1CCCB9740048EE88 /* JZNoticeViewController.xib */; };
 		95F614211CCCB9980048EE88 /* JZPracticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F6141F1CCCB9980048EE88 /* JZPracticeViewController.m */; };
 		95F614221CCCB9980048EE88 /* JZPracticeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95F614201CCCB9980048EE88 /* JZPracticeViewController.xib */; };
 		95F614261CCCB9B50048EE88 /* JZMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F614241CCCB9B50048EE88 /* JZMineViewController.m */; };
@@ -24,6 +27,14 @@
 
 /* Begin PBXFileReference section */
 		616AA4F7DDFE70FDEEC19234 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1DB7B71CCF07EC005B7AA5 /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
+		7F1DB7B81CCF07EC005B7AA5 /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Database.m; sourceTree = "<group>"; };
+		7F1DB7C01CCF3427005B7AA5 /* JZNoticeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZNoticeCell.h; sourceTree = "<group>"; };
+		7F1DB7C11CCF3427005B7AA5 /* JZNoticeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZNoticeCell.m; sourceTree = "<group>"; };
+		7F1DB7C21CCF3427005B7AA5 /* JZNoticeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZNoticeCell.xib; sourceTree = "<group>"; };
+		7F1DB7C51CCF3CE4005B7AA5 /* JZHttpsNetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZHttpsNetworkRequest.h; sourceTree = "<group>"; };
+		7F1DB7C61CCF3CE4005B7AA5 /* JZHttpsNetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZHttpsNetworkRequest.m; sourceTree = "<group>"; };
+		7F1DB7C81CCF3D0C005B7AA5 /* JZBlockDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZBlockDefine.h; sourceTree = "<group>"; };
 		7FCE825A1CC489F300098B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7FCE825B1CC489F300098B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7FCE82601CC489F300098B9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,7 +49,6 @@
 		95F614171CCCB94F0048EE88 /* JZBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZBaseViewController.m; sourceTree = "<group>"; };
 		95F614191CCCB9740048EE88 /* JZNoticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZNoticeViewController.h; sourceTree = "<group>"; };
 		95F6141A1CCCB9740048EE88 /* JZNoticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZNoticeViewController.m; sourceTree = "<group>"; };
-		95F6141B1CCCB9740048EE88 /* JZNoticeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZNoticeViewController.xib; sourceTree = "<group>"; };
 		95F6141E1CCCB9980048EE88 /* JZPracticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZPracticeViewController.h; sourceTree = "<group>"; };
 		95F6141F1CCCB9980048EE88 /* JZPracticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZPracticeViewController.m; sourceTree = "<group>"; };
 		95F614201CCCB9980048EE88 /* JZPracticeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZPracticeViewController.xib; sourceTree = "<group>"; };
@@ -74,16 +84,44 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		7F5944DB1CC4E6D600F9AFE5 /* Database */ = {
+		7F1DB7B61CCF07DB005B7AA5 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				7F1DB7B71CCF07EC005B7AA5 /* Database.h */,
+				7F1DB7B81CCF07EC005B7AA5 /* Database.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		7F1DB7BA1CCF33BF005B7AA5 /* DrivingTestNoticeView */ = {
+			isa = PBXGroup;
+			children = (
+				7F1DB7C01CCF3427005B7AA5 /* JZNoticeCell.h */,
+				7F1DB7C11CCF3427005B7AA5 /* JZNoticeCell.m */,
+				7F1DB7C21CCF3427005B7AA5 /* JZNoticeCell.xib */,
+			);
+			path = DrivingTestNoticeView;
+			sourceTree = "<group>";
+		};
+		7F1DB7BB1CCF33BF005B7AA5 /* DrivingTestPracticeView */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Database;
+			path = DrivingTestPracticeView;
+			sourceTree = "<group>";
+		};
+		7F1DB7BC1CCF33BF005B7AA5 /* MineView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MineView;
 			sourceTree = "<group>";
 		};
 		7F5944DC1CC4E6D600F9AFE5 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				7F1DB7C51CCF3CE4005B7AA5 /* JZHttpsNetworkRequest.h */,
+				7F1DB7C61CCF3CE4005B7AA5 /* JZHttpsNetworkRequest.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -146,6 +184,9 @@
 		7FCE82651CC489F300098B9A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7F1DB7BA1CCF33BF005B7AA5 /* DrivingTestNoticeView */,
+				7F1DB7BB1CCF33BF005B7AA5 /* DrivingTestPracticeView */,
+				7F1DB7BC1CCF33BF005B7AA5 /* MineView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -192,12 +233,12 @@
 		9598E0B91CC3BA6000A02507 /* HGJZKSOC */ = {
 			isa = PBXGroup;
 			children = (
+				7F1DB7B61CCF07DB005B7AA5 /* Database */,
 				95F614281CCCBF010048EE88 /* MarcoDefines */,
 				7FCE82591CC489F300098B9A /* AppDelegate */,
 				7FCE82611CC489F300098B9A /* Supporing Files */,
 				7FCE82661CC489F300098B9A /* ViewController */,
 				7FCE82651CC489F300098B9A /* View */,
-				7F5944DB1CC4E6D600F9AFE5 /* Database */,
 				7F5944DC1CC4E6D600F9AFE5 /* Network */,
 				7FCE825C1CC489F300098B9A /* Category */,
 				7FCE825D1CC489F300098B9A /* Helper */,
@@ -231,7 +272,6 @@
 			children = (
 				95F614191CCCB9740048EE88 /* JZNoticeViewController.h */,
 				95F6141A1CCCB9740048EE88 /* JZNoticeViewController.m */,
-				95F6141B1CCCB9740048EE88 /* JZNoticeViewController.xib */,
 			);
 			path = DrivingTestNotice;
 			sourceTree = "<group>";
@@ -271,6 +311,7 @@
 				95F614291CCCBF190048EE88 /* JZColorDefine.h */,
 				95F6142A1CCCBF2C0048EE88 /* JZFrameDefine.h */,
 				95F6142B1CCCBF730048EE88 /* JZFontDefine.h */,
+				7F1DB7C81CCF3D0C005B7AA5 /* JZBlockDefine.h */,
 			);
 			path = MarcoDefines;
 			sourceTree = "<group>";
@@ -338,8 +379,8 @@
 			files = (
 				95F614221CCCB9980048EE88 /* JZPracticeViewController.xib in Resources */,
 				95F614271CCCB9B50048EE88 /* JZMineViewController.xib in Resources */,
-				95F6141D1CCCB9740048EE88 /* JZNoticeViewController.xib in Resources */,
 				7FCE826A1CC489F300098B9A /* Assets.xcassets in Resources */,
+				7F1DB7C41CCF3427005B7AA5 /* JZNoticeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +446,9 @@
 				7FCE826C1CC489F300098B9A /* main.m in Sources */,
 				95F614261CCCB9B50048EE88 /* JZMineViewController.m in Sources */,
 				7FCE82691CC489F300098B9A /* AppDelegate.m in Sources */,
+				7F1DB7C31CCF3427005B7AA5 /* JZNoticeCell.m in Sources */,
+				7F1DB7C71CCF3CE4005B7AA5 /* JZHttpsNetworkRequest.m in Sources */,
+				7F1DB7B91CCF07EC005B7AA5 /* Database.m in Sources */,
 				95F6140C1CCCB5BB0048EE88 /* JZTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
