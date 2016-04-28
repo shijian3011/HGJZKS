@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "JZNavigationController.h"
 #import "JZTabBarController.h"
-#import "Database.h"
+#import "JZDatabase.h"
 
 @interface AppDelegate ()
 
@@ -21,7 +21,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [Database shareDatabase];
+    [JZDatabase shareDatabase];
     [self initRootViewController];
     return YES;
 }

@@ -9,9 +9,12 @@
 #import <Foundation/Foundation.h>
 
 typedef void(^HttpsNetworkBlock)(id result, NSString *error);
+typedef void(^FileBlock)(BOOL isSuccess, NSString *filePath);
 
 @interface JZHttpsNetworkRequest : NSObject
 
 + (void)requestWithFileName:(NSString *)fileName completedBlock:(HttpsNetworkBlock)block;
+
++ (void)requestWithVedioName:(NSString *)vedioName completeBlock:(HttpsNetworkBlock)block;
 
 @end

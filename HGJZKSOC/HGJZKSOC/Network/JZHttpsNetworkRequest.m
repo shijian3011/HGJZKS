@@ -30,4 +30,9 @@
     [downloadTask resume];
 }
 
++ (void)requestWithVedioName:(NSString *)vedioName completeBlock:(HttpsNetworkBlock)block {
+
+
+}
+
 @end

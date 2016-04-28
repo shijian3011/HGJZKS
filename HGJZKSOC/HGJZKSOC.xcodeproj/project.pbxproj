@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7F1DB7B91CCF07EC005B7AA5 /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DB7B81CCF07EC005B7AA5 /* Database.m */; };
+		7F1286CE1CD1D9FC008FAC5F /* JZYesOrNoTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1286CD1CD1D9FC008FAC5F /* JZYesOrNoTable.m */; };
+		7F1286D11CD1DA1B008FAC5F /* JZBaseTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1286D01CD1DA1B008FAC5F /* JZBaseTable.m */; };
+		7F1286D41CD1DA65008FAC5F /* JZFirstCategoryTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1286D31CD1DA65008FAC5F /* JZFirstCategoryTable.m */; };
+		7F1286D71CD1DA99008FAC5F /* JZSecondCategoryTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1286D61CD1DA99008FAC5F /* JZSecondCategoryTable.m */; };
+		7F1DB7B91CCF07EC005B7AA5 /* JZDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DB7B81CCF07EC005B7AA5 /* JZDatabase.m */; };
 		7F1DB7C31CCF3427005B7AA5 /* JZNoticeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DB7C11CCF3427005B7AA5 /* JZNoticeCell.m */; };
 		7F1DB7C41CCF3427005B7AA5 /* JZNoticeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F1DB7C21CCF3427005B7AA5 /* JZNoticeCell.xib */; };
 		7F1DB7C71CCF3CE4005B7AA5 /* JZHttpsNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DB7C61CCF3CE4005B7AA5 /* JZHttpsNetworkRequest.m */; };
@@ -27,8 +31,16 @@
 
 /* Begin PBXFileReference section */
 		616AA4F7DDFE70FDEEC19234 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F1DB7B71CCF07EC005B7AA5 /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
-		7F1DB7B81CCF07EC005B7AA5 /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Database.m; sourceTree = "<group>"; };
+		7F1286CC1CD1D9FC008FAC5F /* JZYesOrNoTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZYesOrNoTable.h; sourceTree = "<group>"; };
+		7F1286CD1CD1D9FC008FAC5F /* JZYesOrNoTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZYesOrNoTable.m; sourceTree = "<group>"; };
+		7F1286CF1CD1DA1B008FAC5F /* JZBaseTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZBaseTable.h; sourceTree = "<group>"; };
+		7F1286D01CD1DA1B008FAC5F /* JZBaseTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZBaseTable.m; sourceTree = "<group>"; };
+		7F1286D21CD1DA65008FAC5F /* JZFirstCategoryTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZFirstCategoryTable.h; sourceTree = "<group>"; };
+		7F1286D31CD1DA65008FAC5F /* JZFirstCategoryTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZFirstCategoryTable.m; sourceTree = "<group>"; };
+		7F1286D51CD1DA99008FAC5F /* JZSecondCategoryTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZSecondCategoryTable.h; sourceTree = "<group>"; };
+		7F1286D61CD1DA99008FAC5F /* JZSecondCategoryTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZSecondCategoryTable.m; sourceTree = "<group>"; };
+		7F1DB7B71CCF07EC005B7AA5 /* JZDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZDatabase.h; sourceTree = "<group>"; };
+		7F1DB7B81CCF07EC005B7AA5 /* JZDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZDatabase.m; sourceTree = "<group>"; };
 		7F1DB7C01CCF3427005B7AA5 /* JZNoticeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZNoticeCell.h; sourceTree = "<group>"; };
 		7F1DB7C11CCF3427005B7AA5 /* JZNoticeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZNoticeCell.m; sourceTree = "<group>"; };
 		7F1DB7C21CCF3427005B7AA5 /* JZNoticeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZNoticeCell.xib; sourceTree = "<group>"; };
@@ -87,8 +99,16 @@
 		7F1DB7B61CCF07DB005B7AA5 /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				7F1DB7B71CCF07EC005B7AA5 /* Database.h */,
-				7F1DB7B81CCF07EC005B7AA5 /* Database.m */,
+				7F1DB7B71CCF07EC005B7AA5 /* JZDatabase.h */,
+				7F1DB7B81CCF07EC005B7AA5 /* JZDatabase.m */,
+				7F1286CF1CD1DA1B008FAC5F /* JZBaseTable.h */,
+				7F1286D01CD1DA1B008FAC5F /* JZBaseTable.m */,
+				7F1286CC1CD1D9FC008FAC5F /* JZYesOrNoTable.h */,
+				7F1286CD1CD1D9FC008FAC5F /* JZYesOrNoTable.m */,
+				7F1286D21CD1DA65008FAC5F /* JZFirstCategoryTable.h */,
+				7F1286D31CD1DA65008FAC5F /* JZFirstCategoryTable.m */,
+				7F1286D51CD1DA99008FAC5F /* JZSecondCategoryTable.h */,
+				7F1286D61CD1DA99008FAC5F /* JZSecondCategoryTable.m */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -445,11 +465,15 @@
 				95F614211CCCB9980048EE88 /* JZPracticeViewController.m in Sources */,
 				7FCE826C1CC489F300098B9A /* main.m in Sources */,
 				95F614261CCCB9B50048EE88 /* JZMineViewController.m in Sources */,
+				7F1286CE1CD1D9FC008FAC5F /* JZYesOrNoTable.m in Sources */,
 				7FCE82691CC489F300098B9A /* AppDelegate.m in Sources */,
 				7F1DB7C31CCF3427005B7AA5 /* JZNoticeCell.m in Sources */,
+				7F1286D41CD1DA65008FAC5F /* JZFirstCategoryTable.m in Sources */,
 				7F1DB7C71CCF3CE4005B7AA5 /* JZHttpsNetworkRequest.m in Sources */,
-				7F1DB7B91CCF07EC005B7AA5 /* Database.m in Sources */,
+				7F1DB7B91CCF07EC005B7AA5 /* JZDatabase.m in Sources */,
 				95F6140C1CCCB5BB0048EE88 /* JZTabBarController.m in Sources */,
+				7F1286D71CD1DA99008FAC5F /* JZSecondCategoryTable.m in Sources */,
+				7F1286D11CD1DA1B008FAC5F /* JZBaseTable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
