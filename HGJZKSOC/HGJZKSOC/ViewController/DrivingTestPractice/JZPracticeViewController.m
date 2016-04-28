@@ -8,6 +8,10 @@
 
 #import "JZPracticeViewController.h"
 #import "JZHttpsNetworkRequest.h"
+#import "JZYesOrNoTable.h"
+#import "JZFirstCategoryTable.h"
+#import "JZSecondCategoryTable.h"
+#import "JZQuestionModel.h"
 
 @interface JZPracticeViewController ()
 
@@ -20,13 +24,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    
-    [self getTest];
+    [JZHttpsNetworkRequest requestWithFileName:@"%E5%88%A4%E6%96%AD%E9%A2%98.txt" completedBlock:^(NSURL *result, NSString *error) {
+        [self getTest:result];
+    }];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    self.tabBarController.navigationItem.title = @"考试页面";
+    self.tabBarController.navigationItem.title = @"practice view controller";
 }
 
 - (void)didReceiveMemoryWarning {
@@ -39,10 +44,16 @@
 
 #pragma mark - network
 
-- (void)getTest {
-    [JZHttpsNetworkRequest requestWithFileName:@"%E5%88%A4%E6%96%AD%E9%A2%98.txt" completedBlock:^(id result, NSString *error) {
-        NSLog(@"result is %@, error is %@", result, error);
-    }];
+- (void)getTest:(NSURL *)filePath {
+    if (!filePath) {
+        return;
+    }
+    NSString *test = [NSString stringWithContentsOfURL:filePath encoding:NSUTF8StringEncoding error:nil];
+    NSArray *questions = [JZQuestionModel questionsWithString:test];
+    [JZYesOrNoTable addQuestions:questions];
+    
+    NSArray *cachedQuestions = [JZYesOrNoTable queryAllQuestions];
+    NSLog(@"%@", cachedQuestions);
 }
 
 @end

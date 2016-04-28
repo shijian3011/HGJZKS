@@ -11,6 +11,10 @@
 		7F1286D11CD1DA1B008FAC5F /* JZBaseTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1286D01CD1DA1B008FAC5F /* JZBaseTable.m */; };
 		7F1286D41CD1DA65008FAC5F /* JZFirstCategoryTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1286D31CD1DA65008FAC5F /* JZFirstCategoryTable.m */; };
 		7F1286D71CD1DA99008FAC5F /* JZSecondCategoryTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1286D61CD1DA99008FAC5F /* JZSecondCategoryTable.m */; };
+		7F1286DB1CD1E651008FAC5F /* JZBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1286DA1CD1E651008FAC5F /* JZBaseModel.m */; };
+		7F1286DE1CD1E67D008FAC5F /* JZQuestionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1286DD1CD1E67D008FAC5F /* JZQuestionModel.m */; };
+		7F1286E11CD20888008FAC5F /* JZQuestionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1286E01CD20888008FAC5F /* JZQuestionManager.m */; };
+		7F1286E41CD208C6008FAC5F /* JZVedioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1286E31CD208C6008FAC5F /* JZVedioManager.m */; };
 		7F1DB7B91CCF07EC005B7AA5 /* JZDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DB7B81CCF07EC005B7AA5 /* JZDatabase.m */; };
 		7F1DB7C31CCF3427005B7AA5 /* JZNoticeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DB7C11CCF3427005B7AA5 /* JZNoticeCell.m */; };
 		7F1DB7C41CCF3427005B7AA5 /* JZNoticeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F1DB7C21CCF3427005B7AA5 /* JZNoticeCell.xib */; };
@@ -39,6 +43,14 @@
 		7F1286D31CD1DA65008FAC5F /* JZFirstCategoryTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZFirstCategoryTable.m; sourceTree = "<group>"; };
 		7F1286D51CD1DA99008FAC5F /* JZSecondCategoryTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZSecondCategoryTable.h; sourceTree = "<group>"; };
 		7F1286D61CD1DA99008FAC5F /* JZSecondCategoryTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZSecondCategoryTable.m; sourceTree = "<group>"; };
+		7F1286D91CD1E651008FAC5F /* JZBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZBaseModel.h; sourceTree = "<group>"; };
+		7F1286DA1CD1E651008FAC5F /* JZBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZBaseModel.m; sourceTree = "<group>"; };
+		7F1286DC1CD1E67D008FAC5F /* JZQuestionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZQuestionModel.h; sourceTree = "<group>"; };
+		7F1286DD1CD1E67D008FAC5F /* JZQuestionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZQuestionModel.m; sourceTree = "<group>"; };
+		7F1286DF1CD20888008FAC5F /* JZQuestionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZQuestionManager.h; sourceTree = "<group>"; };
+		7F1286E01CD20888008FAC5F /* JZQuestionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZQuestionManager.m; sourceTree = "<group>"; };
+		7F1286E21CD208C6008FAC5F /* JZVedioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZVedioManager.h; sourceTree = "<group>"; };
+		7F1286E31CD208C6008FAC5F /* JZVedioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZVedioManager.m; sourceTree = "<group>"; };
 		7F1DB7B71CCF07EC005B7AA5 /* JZDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZDatabase.h; sourceTree = "<group>"; };
 		7F1DB7B81CCF07EC005B7AA5 /* JZDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZDatabase.m; sourceTree = "<group>"; };
 		7F1DB7C01CCF3427005B7AA5 /* JZNoticeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZNoticeCell.h; sourceTree = "<group>"; };
@@ -94,6 +106,17 @@
 				C3AD4848726F6CBD797BC3AA /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F1286D81CD1E61C008FAC5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7F1286D91CD1E651008FAC5F /* JZBaseModel.h */,
+				7F1286DA1CD1E651008FAC5F /* JZBaseModel.m */,
+				7F1286DC1CD1E67D008FAC5F /* JZQuestionModel.h */,
+				7F1286DD1CD1E67D008FAC5F /* JZQuestionModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		7F1DB7B61CCF07DB005B7AA5 /* Database */ = {
@@ -172,6 +195,10 @@
 		7FCE825E1CC489F300098B9A /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				7F1286DF1CD20888008FAC5F /* JZQuestionManager.h */,
+				7F1286E01CD20888008FAC5F /* JZQuestionManager.m */,
+				7F1286E21CD208C6008FAC5F /* JZVedioManager.h */,
+				7F1286E31CD208C6008FAC5F /* JZVedioManager.m */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -253,6 +280,7 @@
 		9598E0B91CC3BA6000A02507 /* HGJZKSOC */ = {
 			isa = PBXGroup;
 			children = (
+				7F1286D81CD1E61C008FAC5F /* Model */,
 				7F1DB7B61CCF07DB005B7AA5 /* Database */,
 				95F614281CCCBF010048EE88 /* MarcoDefines */,
 				7FCE82591CC489F300098B9A /* AppDelegate */,
@@ -462,11 +490,15 @@
 				95F614111CCCB6760048EE88 /* JZNavigationController.m in Sources */,
 				95F614181CCCB94F0048EE88 /* JZBaseViewController.m in Sources */,
 				95F6141C1CCCB9740048EE88 /* JZNoticeViewController.m in Sources */,
+				7F1286E11CD20888008FAC5F /* JZQuestionManager.m in Sources */,
 				95F614211CCCB9980048EE88 /* JZPracticeViewController.m in Sources */,
 				7FCE826C1CC489F300098B9A /* main.m in Sources */,
 				95F614261CCCB9B50048EE88 /* JZMineViewController.m in Sources */,
+				7F1286E41CD208C6008FAC5F /* JZVedioManager.m in Sources */,
 				7F1286CE1CD1D9FC008FAC5F /* JZYesOrNoTable.m in Sources */,
 				7FCE82691CC489F300098B9A /* AppDelegate.m in Sources */,
+				7F1286DB1CD1E651008FAC5F /* JZBaseModel.m in Sources */,
+				7F1286DE1CD1E67D008FAC5F /* JZQuestionModel.m in Sources */,
 				7F1DB7C31CCF3427005B7AA5 /* JZNoticeCell.m in Sources */,
 				7F1286D41CD1DA65008FAC5F /* JZFirstCategoryTable.m in Sources */,
 				7F1DB7C71CCF3CE4005B7AA5 /* JZHttpsNetworkRequest.m in Sources */,

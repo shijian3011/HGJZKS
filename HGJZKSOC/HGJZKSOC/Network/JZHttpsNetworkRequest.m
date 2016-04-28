@@ -12,7 +12,6 @@
 @implementation JZHttpsNetworkRequest
 
 + (void)requestWithFileName:(NSString *)fileName completedBlock:(HttpsNetworkBlock)block {
-    //https://o68avhu48.qnssl.com/
     NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
     AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];
     
@@ -25,7 +24,9 @@
         NSURL *documentsDirectoryURL = [[NSFileManager defaultManager] URLForDirectory:NSDocumentDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:NO error:nil];
         return [documentsDirectoryURL URLByAppendingPathComponent:[response suggestedFilename]];
     } completionHandler:^(NSURLResponse *response, NSURL *filePath, NSError *error) {
-        NSLog(@"File downloaded to: %@", filePath);
+        if (block) {
+            block(filePath, error.localizedDescription);
+        }
     }];
     [downloadTask resume];
 }

@@ -7,11 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <FMDB/FMDB.h>
 
 @interface JZDatabase : NSObject
 
 + (instancetype)shareDatabase;
 
+- (BOOL)executeUpdate:(NSString*)sql;
+- (FMResultSet *)executeQuery:(NSString*)sql;
 
+//- (void)openDataBase;
+//- (void)closeDatabase;
 
 @end
