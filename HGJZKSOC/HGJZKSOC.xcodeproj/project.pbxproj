@@ -22,6 +22,8 @@
 		7FCE82691CC489F300098B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCE825B1CC489F300098B9A /* AppDelegate.m */; };
 		7FCE826A1CC489F300098B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FCE82601CC489F300098B9A /* Assets.xcassets */; };
 		7FCE826C1CC489F300098B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCE82631CC489F300098B9A /* main.m */; };
+		9557FB351CF33DD80079D1DD /* JZLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9557FB341CF33DD80079D1DD /* JZLabel.m */; };
+		95E70EFE1CE3793000126B95 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95E70EFD1CE3793000126B95 /* EventKit.framework */; };
 		95F6140C1CCCB5BB0048EE88 /* JZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F6140A1CCCB5BB0048EE88 /* JZTabBarController.m */; };
 		95F614111CCCB6760048EE88 /* JZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F614101CCCB6760048EE88 /* JZNavigationController.m */; };
 		95F614181CCCB94F0048EE88 /* JZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F614171CCCB94F0048EE88 /* JZBaseViewController.m */; };
@@ -64,7 +66,10 @@
 		7FCE82601CC489F300098B9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FCE82631CC489F300098B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7FCE826E1CC48B3C00098B9A /* HGJZKSOCInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HGJZKSOCInfo.plist; sourceTree = "<group>"; };
+		9557FB331CF33DD80079D1DD /* JZLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZLabel.h; sourceTree = "<group>"; };
+		9557FB341CF33DD80079D1DD /* JZLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZLabel.m; sourceTree = "<group>"; };
 		9598E0B71CC3BA6000A02507 /* HGJZKSOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGJZKSOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E70EFD1CE3793000126B95 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 		95F614091CCCB5BB0048EE88 /* JZTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZTabBarController.h; sourceTree = "<group>"; };
 		95F6140A1CCCB5BB0048EE88 /* JZTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZTabBarController.m; sourceTree = "<group>"; };
 		95F6140F1CCCB6760048EE88 /* JZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZNavigationController.h; sourceTree = "<group>"; };
@@ -92,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95E70EFE1CE3793000126B95 /* EventKit.framework in Frameworks */,
 				BBDD34388C832240FAF8A28B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +260,7 @@
 		8C72B68ED63E1684E3C69B8F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				95E70EFD1CE3793000126B95 /* EventKit.framework */,
 				616AA4F7DDFE70FDEEC19234 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -330,6 +337,8 @@
 				95F6141E1CCCB9980048EE88 /* JZPracticeViewController.h */,
 				95F6141F1CCCB9980048EE88 /* JZPracticeViewController.m */,
 				95F614201CCCB9980048EE88 /* JZPracticeViewController.xib */,
+				9557FB331CF33DD80079D1DD /* JZLabel.h */,
+				9557FB341CF33DD80079D1DD /* JZLabel.m */,
 			);
 			path = DrivingTestPractice;
 			sourceTree = "<group>";
@@ -503,6 +512,7 @@
 				7F1286D41CD1DA65008FAC5F /* JZFirstCategoryTable.m in Sources */,
 				7F1DB7C71CCF3CE4005B7AA5 /* JZHttpsNetworkRequest.m in Sources */,
 				7F1DB7B91CCF07EC005B7AA5 /* JZDatabase.m in Sources */,
+				9557FB351CF33DD80079D1DD /* JZLabel.m in Sources */,
 				95F6140C1CCCB5BB0048EE88 /* JZTabBarController.m in Sources */,
 				7F1286D71CD1DA99008FAC5F /* JZSecondCategoryTable.m in Sources */,
 				7F1286D11CD1DA1B008FAC5F /* JZBaseTable.m in Sources */,
@@ -608,6 +618,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stoneBellHill.HGJZKSOC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;

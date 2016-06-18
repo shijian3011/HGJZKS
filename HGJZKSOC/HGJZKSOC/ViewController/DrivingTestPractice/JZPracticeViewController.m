@@ -24,9 +24,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    [JZHttpsNetworkRequest requestWithFileName:@"%E5%88%A4%E6%96%AD%E9%A2%98.txt" completedBlock:^(NSURL *result, NSString *error) {
-        [self getTest:result];
-    }];
+//    [JZHttpsNetworkRequest requestWithFileName:@"%E5%88%A4%E6%96%AD%E9%A2%98.txt" completedBlock:^(NSURL *result, NSString *error) {
+//        [self getTest:result];
+//    }];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
